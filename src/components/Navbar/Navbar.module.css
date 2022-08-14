@@ -1,0 +1,12 @@
+.nav{
+    height:75px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0.5px 7px gray;
+}
+.humburger{
+    flex:0.5;
+}
+.inshort img{
+    height: 65px;
+}

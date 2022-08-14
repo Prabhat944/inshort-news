@@ -1,0 +1,40 @@
+
+.appDownload{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height:50px;
+    width: 96%;
+    background-color: tomato;
+    margin:30px 0 30px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 1px 7px grey;
+}
+.appDownload img{
+    height:80%;
+    cursor: pointer;
+}
+.appDownload span{
+    flex: 1;
+}
+.load{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.loadmore{
+    width:150px;
+    height:35px;
+    font-size: 20px;
+    box-shadow: 0 1px 5px gray;
+    cursor: pointer;
+}
+
+@media(max-width:950px){
+    .appDownload{
+        display: none;
+    }
+}
